@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    /* border: 15px solid red; */
+    scroll-behavior: smooth;
+    /* overscroll-behavior: smooth; */
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    rotate: -180deg;
+    font-size: 1rem;
+    line-height: 35px;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    right: 20px;
+    bottom: 20px;
+
+
+}
